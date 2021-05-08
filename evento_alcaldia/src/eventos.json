@@ -1,0 +1,31 @@
+{
+"eventos":[
+{
+"id": 1,
+"categoria": "Cultura",
+"titulo": "evento 1",
+"descripcion": "descrip 1",
+"imagen": "image",
+"inicio":"12/04/20201",
+"fin": "13/04/2021"
+},
+{
+"id": 2,
+"categoria": "Participacion",
+"titulo": "evento 2",
+"descripcion": "descrip 1",
+"imagen": "image",
+"inicio":"15/04/20201",
+"fin": "16/04/2021"
+},
+{
+"id": 3,
+"categoria": "Deporte",
+"titulo": "evento 3",
+"descripcion": "descrip 1",
+"imagen": "image",
+"inicio":"17/04/20201",
+"fin": "19/04/2021"
+}
+]
+}
