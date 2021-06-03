@@ -1,5 +1,5 @@
 import React from 'react'
-import './Cards.css'
+import './CardTemas.css'
 function Card(props) {
     return (       
         <div className="card border"> 
@@ -7,8 +7,8 @@ function Card(props) {
         <a href={props.url} target="_blanck"><img src={props.imageSource} alt="" className="card-img-top"/>
         </a></div>
          <div className="card-body">
-         <a href={props.url} target="_blanck"><h6 className="card-title"><span>{props.title}</span></h6>
-             </a><a href={props.url} target="_blanck"><p className="card-text">{props.text}
+         <a href={props.url} target="_blanck"><h6 className="card-tit"><span className="titulito">{props.title}</span></h6>
+             </a><a href={props.url} target="_blanck"><p className="card-tex">{props.text}
              </p></a>
             
              </div>   

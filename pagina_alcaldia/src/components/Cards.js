@@ -8,7 +8,7 @@ import juridica from '../assets/juridica.jpg'
 import publica from '../assets/publica.jpg'
 import salud from '../assets/salud.jpg' 
 import seguridad from '../assets/seguridad.jpg'
-import './Cards.css'
+import './CardTemas.css'
 const cards = [{
 id: 1,
 title: "AMBIENTE",
@@ -84,7 +84,7 @@ function Cards() {
             </div>
                ))
            }
-
+<hr></hr>
             </div>
         </div>
     )

@@ -1,15 +1,13 @@
 import React, { Component } from 'react'
 import axios from "axios";
-import './Cards.css'
-import { useState } from 'react'
+import './CardEvento.css'
 import "bootstrap/dist/css/bootstrap.min.css";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faFacebook, faTwitter} from '@fortawesome/free-brands-svg-icons';
 import { faCloudSun } from '@fortawesome/free-solid-svg-icons';
 const url="https://jsonplaceholder.typicode.com/photos";
 
-
-class Cards extends Component {
+class CardEvento extends Component {
     state={
         data:[]
           }
@@ -32,7 +30,7 @@ class Cards extends Component {
                     
                     <div className="row col-10">
                       <div className="enc_imagen col-md-12">
-                  <img src="http://estoyenlafrontera.com/sites/default/files/styles/s_apertura/public/2019-11/Cristo%20rey%2011%20pagina1.jpg?itok=3OfPIcNL" alt="" className="card-img-top enc-img"></img>
+                  <img src="http://estoyenlafrontera.com/sites/default/files/styles/s_apertura/public/2019-11/Cristo%20rey%2011%20pagina1.jpg?itok=3OfPIcNL" alt="" className="card-img-t enc-img"></img>
                   <div class="card-title">Cúcuta</div><br></br>
                   <div class="card-titl"><FontAwesomeIcon icon={faCloudSun}/> 30 °C</div>
                       </div>
@@ -97,4 +95,4 @@ class Cards extends Component {
           }
 }
 
-export default Cards;
+export default CardEvento;

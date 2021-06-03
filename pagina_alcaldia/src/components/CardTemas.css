@@ -8,7 +8,7 @@
 }
 .card:hover{
 cursor: pointer;
-box-shadow: 5px 5px 5px 5px rgba(196, 190, 190, 0.8) !important;
+box-shadow: 5px 5px 5px 5px rgba(119, 189, 244, 0.5) !important;
 transition: all 0.1s linear;
 
 }
@@ -23,9 +23,9 @@ transition: all 2s ease-in-out;
     transform: scale(1.8);
 }
 
-span{
+.titulito{
     text-transform: uppercase;
-    background-color: black;
+    background-color:#0C69B2;
     font-family: 'arial';
     color: #fff;
 }
